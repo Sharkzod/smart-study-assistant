@@ -5,7 +5,7 @@ import FileUploader from "@/components/FileUploader";
 import ResultsDashboard from "@/components/ResultsDashboard";
 import type { AnalysisResult } from "@/lib/types";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://smart-study-assistant-backend-wyp1.onrender.com";
 
 type AppState = "upload" | "loading" | "results";
 
